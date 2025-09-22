@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "db": {
+            "command": "python",
+            "args": [
+                "lgch_todo/mcps/local_servers/db_todo.py"
+            ],
+            "transport": "stdio",
+            "env": {
+                "PYTHONPATH": "."
+            }
+        }
+    }
+}
